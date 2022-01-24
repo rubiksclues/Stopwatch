@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Saira Condensed', sans-serif;
+    background-color:rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    background-color: rgb(43, 43, 43);
+    width: 20rem;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 5px 15px;
+}
+
+.screen{
+    background-color: rgb(103, 114, 117);
+    text-align: center;
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.767);
+    box-shadow: rgba(57, 58, 59, 0.836) 0px 0px 0px 3px;
+}
+.screen p{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    text-shadow: -4px -4px 4px rgba(0, 0, 0, 0.56);
+    color: rgba(236, 236, 236, 0.897);
+}
+.controls{
+    text-align: center;
+    padding-top: 1rem;
+}
+.start{
+    border-radius: 2rem;
+    background-color: #5A9B59;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 10px 15px;
+}
+.stop {
+    border-radius: 2rem;
+    background-color: #C20114;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 10px 15px;
+}
+.reset{
+    border-radius: 2rem;
+    background-color: #0C120C;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: rgba(24, 24, 24, 0.884) 0px 10px 15px;
+}
+.start:hover{
+    cursor:pointer;
+    background-color: #72AD71;
+}
+.stop:hover{
+    cursor: pointer;
+    background-color: #FE2036;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: #0c120cad;
+}
